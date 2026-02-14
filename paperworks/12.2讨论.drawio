@@ -1,0 +1,252 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="tP0Ne0qvnP1vj-IB_T2_">
+    <mxGraphModel dx="823" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3filUTEZk9kAOYRxDvNw-1" value="第五步：SQL 生成与执行" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="683" y="1750" width="372" height="517" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-2" value="第四步：顺序思考 Sequential Thinking" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="332" y="1630" width="331" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-3" value="第三步：动态模式映射 Core" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="396" y="1240" width="404" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-4" value="第二步：人机交互消歧" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="695" width="320" height="664" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="381.42857142857156" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-5" value="第一步：意图识别" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="55" y="100" width="440" height="517" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-6" value="用户输入自然语言 Query" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="507" y="20" width="200" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-7" value="意图分类器" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="86" y="134" width="134" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-8" value="闲聊/无法回答" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="289" y="342" width="164" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-9" value="地理实体提取器&#xa;（需要先把自然语言转为专业术语，然后再提取）" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="67" y="342" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-11" value="是否有歧义?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="83" y="720" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-10" value="判断实体类型" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="78" y="446" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-12" value="调用 API / 区域库" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="153" y="934" width="186" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-13" value="生成候选列表" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="168" y="1038" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-14" value="用户选择正确地点" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="152" y="1142" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-15" value="获得精确坐标/边界" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="55" y="1275" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-16" value="数据库摘要 Schema Abstract" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="487" y="1271" width="278" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-17" value="Schema Mapper LLM" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="481" y="1409" width="212" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-18" value="筛选出的相关表结构" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="488" y="1522" width="198" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-19" value="Sequential Thinking Agent" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="367" y="1661" width="261" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-20" value="拆解问题 &amp; 规划逻辑" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="396" y="1775" width="203" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-21" value="PostGIS 指令与示例" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="809" y="1775" width="191" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-22" value="SQL 生成器 LLM&#xa;（需要顺便输出MRL，以验证答案是否正确）" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="757" y="1889" width="173" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-23" value="可执行的 SQL" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="766" y="1978" width="155" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-24" value="空间数据库" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="796" y="2082" width="95" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-25" value="地图可视化结果" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="775" y="2203" width="137" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-26" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="643" y="502" width="57" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-6" target="3filUTEZk9kAOYRxDvNw-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-28" value="闲聊/超出范围" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.74;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-7" target="3filUTEZk9kAOYRxDvNw-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="371" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.01;entryY=0.25;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-8" target="3filUTEZk9kAOYRxDvNw-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="371" y="421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-30" value="地理查询" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-7" target="3filUTEZk9kAOYRxDvNw-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-9" target="3filUTEZk9kAOYRxDvNw-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-32" value="点(Point) / 面(Area)" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-10" target="3filUTEZk9kAOYRxDvNw-11" edge="1">
+          <mxGeometry x="0.0323" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-33" value="无歧义" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0.39;entryY=0.01;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-11" target="3filUTEZk9kAOYRxDvNw-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="897" />
+              <mxPoint x="109" y="1246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-34" value="有歧义" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-11" target="3filUTEZk9kAOYRxDvNw-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-12" target="3filUTEZk9kAOYRxDvNw-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-13" target="3filUTEZk9kAOYRxDvNw-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.73;entryY=0.01;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-14" target="3filUTEZk9kAOYRxDvNw-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="1246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.27;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="3filUTEZk9kAOYRxDvNw-15" target="3filUTEZk9kAOYRxDvNw-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="1359" />
+              <mxPoint x="477" y="1384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-39" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.58;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-16" target="3filUTEZk9kAOYRxDvNw-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="1384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-40" value="智能筛选" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-17" target="3filUTEZk9kAOYRxDvNw-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.28;exitY=1;entryX=0.48;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-18" target="3filUTEZk9kAOYRxDvNw-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="487" y="1586" />
+              <mxPoint x="487" y="1636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-42" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.97;exitY=1;entryX=0.62;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-6" target="3filUTEZk9kAOYRxDvNw-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="84" />
+              <mxPoint x="820" y="1586" />
+              <mxPoint x="570" y="1611" />
+              <mxPoint x="570" y="1636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-19" target="3filUTEZk9kAOYRxDvNw-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.27;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-20" target="3filUTEZk9kAOYRxDvNw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497" y="1839" />
+              <mxPoint x="754" y="1864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-45" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0.32;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-18" target="3filUTEZk9kAOYRxDvNw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="703" y="1586" />
+              <mxPoint x="774" y="1611" />
+              <mxPoint x="774" y="1864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-46" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.65;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-21" target="3filUTEZk9kAOYRxDvNw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="904" y="1864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-47" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.77;entryX=0.98;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-6" target="3filUTEZk9kAOYRxDvNw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1035" y="84" />
+              <mxPoint x="1035" y="1864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-22" target="3filUTEZk9kAOYRxDvNw-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-23" target="3filUTEZk9kAOYRxDvNw-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3filUTEZk9kAOYRxDvNw-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" parent="1" source="3filUTEZk9kAOYRxDvNw-24" target="3filUTEZk9kAOYRxDvNw-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
