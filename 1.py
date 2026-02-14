@@ -3,12 +3,11 @@ from langchain_mongodb import MongoDBAtlasVectorSearch
 from pymongo import MongoClient
 import os
 
-os.environ["OPENAI_API_KEY"] = "sk-F0H5BjAZPxlWloBXC3Fb1e445b0543Fe90E8492aD081A4Fb"
-os.environ["OPENAI_BASE_URL"] = "https://api.laozhang.ai/v1"
+
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small", dimensions=1536)
 
 
-client = MongoClient("mongodb+srv://ashlii:123567@cluster0.xukxbpk.mongodb.net/?appName=Cluster0")
+client = MongoClient(os.getenv("MONGO"))
 
 DB_NAME = "langchain"
 COLLECTION_NAME = "vector_store"
